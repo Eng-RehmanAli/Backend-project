@@ -1,0 +1,1 @@
+export const my_db_name="first_project";
