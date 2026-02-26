@@ -9,7 +9,8 @@ function connectdb(){
     connectionString:process.env.SUPABASE_URI,
     ssl:{
         rejectUnauthorized:false,
-    }
+    },
+    family:4
 });
 connection.connect().then(()=>{
     console.log(`the db is connect `);
