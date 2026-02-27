@@ -316,6 +316,36 @@ const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
-=======
-Thats by the Rehman Ali
->>>>>>> 282c66cf762f9d3ac95edd4131ea607620e72393
+
+now we deal withe the higher order function 
+what is the higher order function in the js
+example?
+const asyncthakder=(hanlderfunction)=>{
+(req,res,next)=>{
+
+promoise.resolvehanlderfunction()
+promoise.resolve()
+
+what is the success flag in the js 
+it use for the deling with the api in the try and promises 
+like in the error or suucess   
+
+what is the 500 error?
+500 is a server error in which it make that the someting is want wrong in the server but not know where   
+
+This code snippet is a Higher-Order Function (HOF). In Node.js/Express development, its job is to act as a "wrapper" that automatically catches errors in your asynchronous routes so your server doesn't crash.
+
+Think of it as a safety net for your API calls.
+3. The "Stop Condition" (Ending the Request)
+Once res.json() is called, the "cycle" is complete. The server sends the data back to the user's browser and stops right there. It doesn't need to go to next() because the job is done.
+
+very importne?
+we cannot use the this before the super because we call to the paranet constructor  in from the child 
+what is the stack trace in error handling?
+it save what is the  error which function is caling and in which file it has  
+
+capturestacktrcer make the reaport of the errors of the  error stack by the server 
+
+
+erroer class has the statuscode and message stack 
+and response has the statuscode  message  data and also has the successive flagS
