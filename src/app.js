@@ -2,8 +2,6 @@ import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 const app=express();
-
-
 app.use(cors({
  // set the origin of the  data sharing 
  origin:process.env.CORSE_ORIGIN,

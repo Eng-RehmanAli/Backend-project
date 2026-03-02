@@ -2,7 +2,7 @@
 // it will gives you the actula object 
 
 const asynchandler=(fn)=>async(req,res,next)=>{
- try{
+ try{// this is the most importent  function to underastand 
  await  fn(req,res,next)
  }catch(err){
     res.status(err.code||500).json({
